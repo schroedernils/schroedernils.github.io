@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Datenschutz - Afterpage</title>
+    <style>
+      :root { color-scheme: light dark; font-family: ui-sans-serif, system-ui, sans-serif; background: #f3eee4; color: #29251f; }
+      * { box-sizing: border-box; }
+      body { margin: 0; padding: 2rem 1.25rem 5rem; }
+      main { width: min(46rem, 100%); margin: 0 auto; }
+      img { width: 3.5rem; height: 3.5rem; border-radius: 1rem; }
+      h1, h2 { font-family: ui-serif, Georgia, serif; }
+      h1 { margin: 1.5rem 0 2rem; font-size: clamp(2.25rem, 8vw, 4rem); }
+      h2 { margin: 2rem 0 .5rem; }
+      p, li { line-height: 1.7; }
+      a { color: #7d3522; font-weight: 700; text-underline-offset: .25em; }
+      @media (prefers-color-scheme: dark) { :root { background: #1e1b17; color: #f4ede1; } a { color: #f19b7d; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="/" aria-label="Zuruck zu Afterpage"><img src="/afterpage-logo-color.png" alt="" width="56" height="56" /></a>
+      <h1>Datenschutz</h1>
+      <p>Stand: 7. August 2026</p>
+      <h2>Zweck dieser Domain</h2>
+      <p>
+        <code>schroedernils.github.io</code> dient Afterpage als WebAuthn-Relying-Party und stellt den
+        offentlichen Android Digital Asset Link bereit. Die statische Seite besitzt keine Formulare,
+        Cookies, Analyse-Skripte oder eigenen serverseitigen Datenspeicher.
+      </p>
+      <h2>Afterpage-Konto</h2>
+      <p>
+        Die App kann optional Supabase Auth fur Anmeldung und Kontosicherheit verwenden. Bei einer
+        Google-Anmeldung erhalt Afterpage nur die vom Nutzer freigegebenen Basisangaben zur Identitat,
+        insbesondere E-Mail-Adresse und Profilname. Afterpage fordert keine Google-Drive-, Gmail- oder
+        sonstigen Google-Daten an.
+      </p>
+      <h2>Private Inhalte</h2>
+      <p>
+        Buch- und Recall-Inhalte bleiben lokal nutzbar. Wenn der optionale Geratesync aktiviert wird,
+        werden semantische Inhalte vor dem Upload clientseitig verschlusselt. Der Server speichert nur
+        Ciphertext und unvermeidbare Betriebsmetadaten wie Konto-, Gerate-, Reihenfolge- und Zeitangaben.
+      </p>
+      <h2>Loschung und Kontrolle</h2>
+      <p>
+        Passkeys, Sitzungen und synchronisierte Gerate konnen in Afterpage verwaltet werden. Ein Passkey
+        bleibt immer eine zusatzliche Komfortoption; E-Mail-Anmeldung und Wiederherstellung bleiben davon
+        getrennt.
+      </p>
+      <p><a href="/">Zuruck zu Afterpage</a></p>
+    </main>
+  </body>
+</html>

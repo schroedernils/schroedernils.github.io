@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Afterpage - sichere App-Identitat</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+        background: #f3eee4;
+        color: #29251f;
+      }
+      * { box-sizing: border-box; }
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 2rem 1.25rem;
+        background:
+          radial-gradient(circle at 15% 10%, #db714633, transparent 32rem),
+          linear-gradient(145deg, #f8f4ea, #ebe2d3);
+      }
+      main {
+        width: min(42rem, 100%);
+        padding: clamp(1.75rem, 6vw, 3.5rem);
+        border: 1px solid #4c443426;
+        border-radius: 1rem 3rem 1rem 1rem;
+        background: #fffdf8e8;
+        box-shadow: 0 1.5rem 5rem #4a32141a;
+      }
+      img { width: 4.5rem; height: 4.5rem; border-radius: 1.35rem; }
+      h1 { margin: 1.75rem 0 .75rem; font-size: clamp(2.25rem, 8vw, 4.5rem); line-height: .95; }
+      p { max-width: 34rem; margin: .75rem 0; font: 1rem/1.7 ui-sans-serif, system-ui, sans-serif; }
+      .label { color: #b44d2f; font-size: .75rem; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; }
+      a { color: #7d3522; font-weight: 700; text-underline-offset: .25em; }
+      @media (prefers-color-scheme: dark) {
+        :root { background: #1e1b17; color: #f4ede1; }
+        body { background: radial-gradient(circle at 15% 10%, #a7473038, transparent 30rem), #1e1b17; }
+        main { border-color: #f3e5cd20; background: #29241fef; box-shadow: 0 1.5rem 5rem #0006; }
+        .label, a { color: #f19b7d; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="/afterpage-logo-color.png" alt="" width="72" height="72" />
+      <p class="label">Passkey relying party</p>
+      <h1>Afterpage</h1>
+      <p>
+        Diese Domain ist die feste, offentliche Identitat der privaten Afterpage-App. Android und
+        Passkey-Anbieter konnen hier prufen, dass eine Anmeldeanfrage wirklich zur signierten App gehort.
+      </p>
+      <p>
+        Auf dieser Website werden keine Bucher, Erinnerungen, Audiodateien, Kontoinhalte oder
+        Nutzungsprofile gespeichert.
+      </p>
+      <p><a href="/privacy.html">Datenschutz und technische Angaben</a></p>
+    </main>
+  </body>
+</html>

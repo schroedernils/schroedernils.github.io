@@ -11,5 +11,18 @@
         "DB:6B:6B:4D:A1:7D:40:05:91:BF:06:24:45:68:BD:7F:8B:02:EA:61:27:5C:8A:84:34:43:EF:72:2C:D9:37:51"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.nils.worktime",
+      "sha256_cert_fingerprints": [
+        "46:D5:D1:D4:2F:6A:39:6A:ED:3A:52:13:EC:19:EB:1A:A1:19:86:28:BD:20:F2:CF:52:24:39:33:F9:84:0F:FE"
+      ]
+    }
   }
 ]

@@ -1,0 +1,1 @@
+import"./about-text.2uQ79oni.js";

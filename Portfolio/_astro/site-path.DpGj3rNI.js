@@ -1,1 +1,0 @@
-var e=`/Portfolio/`.replace(/\/$/,``);function t(t){return!t.startsWith(`/`)||t.startsWith(`//`)?t:`${e}${t}`}function n(t){return e&&t.startsWith(`${e}/`)?t.slice(e.length):t}export{t as n,n as t};

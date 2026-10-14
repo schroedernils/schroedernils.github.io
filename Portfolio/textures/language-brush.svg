@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="180" viewBox="0 0 480 180">
+  <!-- Sparse dry-brush strands, not a flag panel. Tiles stay static in the cloud. -->
+  <g fill="none" stroke="#f3eee6" stroke-linecap="round" opacity=".38">
+    <path d="M-30 12Q82 4 158 15T346 11L508 4" stroke-width="1.2"/>
+    <path d="M22 20Q91 13 173 19M195 16Q298 6 380 14" stroke-width=".7"/>
+    <path d="M-16 41Q65 34 131 41T283 36M312 34L489 29" stroke-width="2.2"/>
+    <path d="M39 48Q146 41 217 49M247 43L371 39" stroke-width=".6"/>
+    <path d="M-20 77Q72 64 159 74T353 70L510 59" stroke-width="1.4"/>
+    <path d="M74 84L149 79M206 83Q295 70 383 76" stroke-width=".9"/>
+    <path d="M-18 112Q86 99 175 109T338 103L500 96" stroke-width="1.8"/>
+    <path d="M18 119L79 114M142 117Q188 110 258 116M345 109L405 105" stroke-width=".5"/>
+    <path d="M-20 149Q67 136 141 147T293 142L505 131" stroke-width="1.1"/>
+    <path d="M32 158Q98 149 169 155M220 154L296 145M330 151L422 142" stroke-width=".8"/>
+  </g>
+  <g fill="none" stroke="#263b47" stroke-linecap="round" opacity=".22">
+    <path d="M-15 29Q65 23 117 29M185 27Q292 13 405 21" stroke-width=".8"/>
+    <path d="M38 62L129 55M203 62Q279 47 342 53L492 47" stroke-width="1.4"/>
+    <path d="M-12 94Q95 80 193 91M238 87L414 74" stroke-width=".6"/>
+    <path d="M27 133Q86 124 152 130M223 126Q321 114 407 120" stroke-width="1.1"/>
+    <path d="M-20 170L111 158M179 171Q256 152 345 160L490 148" stroke-width=".7"/>
+  </g>
+</svg>

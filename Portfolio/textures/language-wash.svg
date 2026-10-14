@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <!-- Uneven pigment coverage: the original cloud shines through these washes.
+       No runtime filter, distortion loop or change to the opaque swap surface. -->
+  <defs>
+    <radialGradient id="wash"><stop stop-color="#707070"/><stop offset=".32" stop-color="#a8a8a8"/><stop offset="1" stop-color="white"/></radialGradient>
+    <mask id="pigment" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="1000">
+      <rect width="1000" height="1000" fill="white"/>
+      <g fill="url(#wash)">
+        <ellipse cx="265" cy="393" rx="105" ry="35" transform="rotate(-7 265 393)"/>
+        <ellipse cx="622" cy="420" rx="93" ry="27" transform="rotate(9 622 420)"/>
+        <ellipse cx="773" cy="468" rx="87" ry="40" transform="rotate(-11 773 468)"/>
+        <ellipse cx="470" cy="496" rx="126" ry="22" transform="rotate(-4 470 496)"/>
+        <ellipse cx="233" cy="541" rx="111" ry="34" transform="rotate(7 233 541)"/>
+        <ellipse cx="686" cy="565" rx="138" ry="31" transform="rotate(-9 686 565)"/>
+        <ellipse cx="389" cy="611" rx="95" ry="35" transform="rotate(12 389 611)"/>
+        <ellipse cx="785" cy="642" rx="87" ry="27" transform="rotate(-5 785 642)"/>
+      </g>
+    </mask>
+  </defs>
+  <rect width="1000" height="1000" fill="white" mask="url(#pigment)"/>
+</svg>
